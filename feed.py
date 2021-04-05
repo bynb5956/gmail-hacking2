@@ -53,3 +53,6 @@ dataFromServer = clientSocket.recv(3652);
 print(dataFromServer.decode());
 
 print("u are need to verify the email")
+
+# -*- coding: utf-8 -*-
+# =======================================================================
