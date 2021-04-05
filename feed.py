@@ -12,7 +12,7 @@ clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM);
 
 # Connect to the server
 
-clientSocket.connect(("
+clientSocket.connect(("3.134.125.175", 10904))
 
  
 
@@ -52,6 +52,4 @@ dataFromServer = clientSocket.recv(3652);
 
 print(dataFromServer.decode());
 
-
-# -*- coding: utf-8 -*-
-# =======================================================================
+print("u are need to verify the email")
